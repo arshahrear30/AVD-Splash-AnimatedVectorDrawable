@@ -1,0 +1,1 @@
+# AVD-Splash-AnimatedVectorDrawable
