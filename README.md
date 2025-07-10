@@ -2,6 +2,8 @@
 
 Adobe illustrator SVG File create 
 
+implementation "androidx.core:core-splashscreen:1.0.0"
+
 https://shapeshifter.design/
 
 Youtube video : https://youtu.be/x3uekqdznf0
