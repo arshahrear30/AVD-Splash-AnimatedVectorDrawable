@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AVDSplash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/tttt</item>
+    </style>
+
+    <style name="Theme.AVDSplash" parent="Base.Theme.AVDSplash" />
+</resources>
