@@ -61,6 +61,26 @@ At first আমরা image টা কে vector-এ convert করবো: Selec
     <target android:name="iconCross">
         <aapt:attr name="android:animation">
             <objectAnimator
+
+
+
+
+
+Button Animation করতে চাইলে এই code add করবে
+            LinearLayout myButton = findViewById(R.id.ShiftButton);
+
+        myButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.animate().scaleX(0.9f).scaleY(0.9f).setDuration(100).withEndAction(new Runnable() {
+                    @Override
+                    public void run() {
+                        v.animate().scaleX(1f).scaleY(1f).setDuration(100).start();
+                    }
+                }).start();
+            }
+        });
+
                 android:propertyName="rotation"/>
         </aapt:attr>
     </target>
